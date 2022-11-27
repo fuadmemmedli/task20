@@ -1,0 +1,208 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  background-color: #2B2B2B;
+}
+.container img {
+  border-radius: 22px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.container header {
+  padding-top: 80px;
+  padding-left: 195px;
+  font-weight: 600;
+  font-size: 38px;
+  color: #FFFFFF;
+}
+@media only screen and (max-width: 992px) {
+  .container header {
+    padding-left: 30px;
+  }
+}
+.container h5 {
+  padding: 25px 30px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.container .top,
+.container .bottom {
+  padding-top: 80px;
+  padding-left: 195px;
+  display: flex;
+  gap: 50px;
+}
+@media only screen and (max-width: 992px) {
+  .container .top,
+.container .bottom {
+    padding-left: 10px;
+    gap: 20px;
+  }
+}
+.container .top .top-left,
+.container .top .top-right,
+.container .bottom .top-left,
+.container .bottom .top-right {
+  display: flex;
+  gap: 50px;
+}
+@media only screen and (max-width: 992px) {
+  .container .top .top-left,
+.container .top .top-right,
+.container .bottom .top-left,
+.container .bottom .top-right {
+    flex-direction: column;
+    margin-left: 0;
+  }
+}
+.container .top .top-left .img,
+.container .top .top-right .img,
+.container .bottom .top-left .img,
+.container .bottom .top-right .img {
+  width: 240px;
+  height: 316px;
+  background: #3B3B3B;
+  border-radius: 20px;
+}
+.container .bottom {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}/*# sourceMappingURL=main.css.map */
